@@ -25,6 +25,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import PasswordGen from './components/PasswordGen';
+import PasswordUI from './components/PasswordUI';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -40,7 +41,8 @@ function App(): React.JSX.Element {
   return (
     <SafeAreaView style={backgroundStyle}>
       <ScrollView>
-        <PasswordGen/>
+        {/* <PasswordGen/> */}
+        <PasswordUI/>
       </ScrollView>
     </SafeAreaView>
   );

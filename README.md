@@ -1,5 +1,11 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
+# Dependencies
+- Yup - npm install yup
+- React Formic - npm install formik --save
+- React Native Bouncy Check Box - import BouncyCheckbox from "react-native-bouncy-checkbox";
+
+
 # Getting Started
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
